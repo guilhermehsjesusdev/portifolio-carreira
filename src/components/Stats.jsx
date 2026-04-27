@@ -1,6 +1,6 @@
 "use client";
 
-import { redirectSecurity } from "@/functions/redirectSecurity";
+import { redirectSecurity } from "../utils/projectRedirect";
 
 export default function Stats() {
   const items = [
