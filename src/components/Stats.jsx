@@ -1,6 +1,6 @@
 "use client";
 
-import { redirectPDFTool, redirectSecurity } from "../utils/projectRedirect";
+import { redirectPDFTool, redirectSecurity, redirectHospitalAudit } from "../utils/projectRedirect";
 
 export default function Stats() {
   const items = [
@@ -14,7 +14,7 @@ export default function Stats() {
     },
     {
       title: "Banco de Dados",
-      action: () => console.log("Banco"),
+      action: redirectHospitalAudit,
     },
     {
       title: "Redes e Sistemas",
