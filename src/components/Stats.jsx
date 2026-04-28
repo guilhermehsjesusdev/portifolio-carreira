@@ -1,12 +1,12 @@
 "use client";
 
-import { redirectSecurity } from "../utils/projectRedirect";
+import { redirectPDFTool, redirectSecurity } from "../utils/projectRedirect";
 
 export default function Stats() {
   const items = [
     {
       title: "Desenvolvimento",
-      action: () => console.log("Desenvolvimento"),
+      action: redirectPDFTool,
     },
     {
       title: "Segurança da Informação",
