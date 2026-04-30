@@ -1,6 +1,6 @@
 "use client";
 
-import { redirectPDFTool, redirectSecurity, redirectHospitalAudit } from "../utils/projectRedirect";
+import { redirectPDFTool, redirectSecurity, redirectHospitalAudit, redirectSwitchClone } from "../utils/projectRedirect";
 
 export default function Stats() {
   const items = [
@@ -18,7 +18,7 @@ export default function Stats() {
     },
     {
       title: "Redes e Sistemas",
-      action: () => console.log("Infra"),
+      action: redirectSwitchClone,
     },
   ];
 

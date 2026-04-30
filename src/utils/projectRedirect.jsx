@@ -15,3 +15,7 @@ export const redirectPDFTool = () => {
 export const redirectHospitalAudit = () => {
   window.open("https://github.com/guilhermehsjesusdev/Hospital-Audit/", "_blank");
 }
+
+export const redirectSwitchClone = () => {
+  window.open("https://switch-clone-kkcglxzpe.vercel.app/", "_blank");
+}
