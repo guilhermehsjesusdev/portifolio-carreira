@@ -13,7 +13,7 @@ export default function Hero() {
       {/* TEXTO */}
       <div className="max-w-xl text-center lg:text-left">
         <p className="text-blue-400 mb-4 uppercase tracking-widest text-sm">
-          Desenvolvedor Backend
+          Desenvolvedor FullStack
         </p>
 
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
