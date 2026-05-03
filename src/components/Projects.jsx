@@ -1,4 +1,4 @@
-import { redirectBlog } from "../utils/projectRedirect";
+import { redirectBlog, redirectApiBank } from "../utils/projectRedirect";
 
 export default function Projects() {
   const projects = [
@@ -8,9 +8,9 @@ export default function Projects() {
       action: redirectBlog,
     },
     {
-      title: "Task Manager",
-      desc: "Sistema completo de tarefas com dashboard",
-      action: () => window.open("https://seu-taskmanager.com", "_blank"),
+      title: "API Banco",
+      desc: "Api de Reprodução bancaria",
+      action: redirectApiBank,
     },
     {
       title: "E-commerce API",

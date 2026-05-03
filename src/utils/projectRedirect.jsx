@@ -19,3 +19,7 @@ export const redirectHospitalAudit = () => {
 export const redirectSwitchClone = () => {
   window.open("https://switch-clone-kkcglxzpe.vercel.app/", "_blank");
 }
+
+export const redirectApiBank = () => {
+  window.open("https://github.com/guilhermehsjesusdev/bank-api", "_blank");
+}
