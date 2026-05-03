@@ -1,4 +1,4 @@
-import { redirectBlog, redirectApiBank } from "../utils/projectRedirect";
+import { redirectBlog, redirectApiBank, redirectApiEComerce } from "../utils/projectRedirect";
 
 export default function Projects() {
   const projects = [
@@ -15,7 +15,7 @@ export default function Projects() {
     {
       title: "E-commerce API",
       desc: "Backend com pagamentos e microsserviços",
-      action: () => window.open("https://github.com/seuusuario/ecommerce", "_blank"),
+      action: redirectApiEComerce,
     },
   ];
 

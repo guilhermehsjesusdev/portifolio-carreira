@@ -23,3 +23,7 @@ export const redirectSwitchClone = () => {
 export const redirectApiBank = () => {
   window.open("https://github.com/guilhermehsjesusdev/bank-api", "_blank");
 }
+
+export const redirectApiEComerce = () => {
+  window.open("https://github.com/guilhermehsjesusdev/Api-E-Commerce-C-", "_blank");
+}
