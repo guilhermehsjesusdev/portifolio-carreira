@@ -1,3 +1,5 @@
+import { redirectGitHub, redirectLinkedin } from "../utils/redirects";
+
 export default function Contact() {
   return (
     <section id="contato" className="px-20 py-24 text-center">
@@ -10,11 +12,17 @@ export default function Contact() {
       </p>
 
       <div className="flex justify-center gap-6">
-        <a className="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700">
+        <a
+          onClick={redirectLinkedin}
+          className="bg-blue-600 px-6 py-3 rounded-lg hover:bg-blue-700 cursor-pointer"
+        >
           LinkedIn
         </a>
 
-        <a className="border border-gray-600 px-6 py-3 rounded-lg hover:bg-gray-800">
+        <a
+          onClick={redirectGitHub}
+          className="border border-gray-600 px-6 py-3 rounded-lg hover:bg-gray-800 cursor-pointer"
+        >
           GitHub
         </a>
       </div>
