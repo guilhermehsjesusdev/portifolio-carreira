@@ -27,3 +27,7 @@ export const redirectApiBank = () => {
 export const redirectApiEComerce = () => {
   window.open("https://github.com/guilhermehsjesusdev/Api-E-Commerce-C-", "_blank");
 }
+
+export const redirectEcomerce = () => {
+  window.open("https://e-commerce-front-umber.vercel.app/shop", "_blank");
+};

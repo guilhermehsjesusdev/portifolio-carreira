@@ -1,4 +1,4 @@
-import { redirectBlog, redirectApiBank, redirectApiEComerce } from "../utils/projectRedirect";
+import { redirectBlog, redirectApiBank, redirectApiEComerce, redirectEcomerce } from "../utils/projectRedirect";
 
 export default function Projects() {
   const projects = [
@@ -17,6 +17,11 @@ export default function Projects() {
       desc: "Backend com pagamentos e microsserviços",
       action: redirectApiEComerce,
     },
+    {
+      title: "Integração Api E-Comerce com Frontend em Angular",
+      desc : "Integração Backend C# com Frontend Angular de Api E-Comerce",
+      action : redirectEcomerce,
+    }
   ];
 
   return (
